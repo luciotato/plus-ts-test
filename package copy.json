@@ -1,0 +1,26 @@
+{
+  "name": "slash-ts-test",
+  "version": "1.0.0",
+  "description": "model for create-command-cli",
+  "main": "slash-ts-test.js",
+  "scripts": {
+    "test": "slash-ts-test --help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luciotato/slash-ts-test.git"
+  },
+  "keywords": [
+    "typescript","preprocessor","inline type annotations"
+  ],
+  "author": "Lucio Tato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luciotato/slash-ts-test/issues"
+  },
+  "homepage": "https://github.com/luciotato/slash-ts-test/#readme",
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "plus-typescript": "^4.0.0"
+  }
+}

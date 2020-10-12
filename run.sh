@@ -1,0 +1,1 @@
+node --experimental-loader ./loadts.mjs plus.ts $*
