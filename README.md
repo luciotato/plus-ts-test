@@ -1,6 +1,6 @@
 #plus-typescript node console app (cli) example
 
-This is an example/test project for [plus-typescript](github.com/luciotato/plus-typescript)
+This is an example/test project for [github.com/luciotato/plus-typescript](https://github.com/luciotato/plus-typescript)
 
 ## Testing
 
