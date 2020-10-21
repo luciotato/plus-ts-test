@@ -21,6 +21,6 @@
   "homepage": "https://github.com/luciotato/slash-ts-test/#readme",
   "devDependencies": {
     "@types/node": "^14.11.2",
-    "plus-typescript": "^4.0.0"
+    "plus-typescript": "^4.1.0"
   }
 }

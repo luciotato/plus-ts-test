@@ -1,18 +1,18 @@
 #!/bin/node
-import { cliConfig } from "./CLIConfig"
-import { nickname } from "./ContractAPI"
-import { options } from "./CLIOptions"
-import { CommandLineArgs, ShowHelpPage } from "./util/CommandLineArgs"
-/*+import { OptionDeclaration } from "./util/CommandLineArgs"+*/
-import * as color from "./util/color"
-import { ExtensionAPI } from "./ExtensionAPI"
-import { saveConfig } from "./util/saveConfig"
+import { cliConfig } from "./CLIConfig.js"
+import { nickname } from "./ContractAPI.js"
+import { options } from "./CLIOptions.js"
+import { CommandLineArgs, ShowHelpPage } from "./util/CommandLineArgs.js"
+/*+import { OptionDeclaration } from "./util/CommandLineArgs.js"+*/
+import * as color from "./util/color.js"
+import { ExtensionAPI } from "./ExtensionAPI.js"
+import { saveConfig } from "./util/saveConfig.js"
 
 // default accountId
 options.accountId.value = cliConfig.userAccount
 
 // process command line args
-const args = new CommandLineArgs(options /*+as unknown as Record<string,OptionDeclaration>+*/)
+const args/*:CommandLineArgs*/ = new CommandLineArgs(options /*+as unknown as Record<string,OptionDeclaration>+*/)
 
 // command is the 1st positional argument
 const command = args.getCommand()
@@ -59,4 +59,4 @@ if (options.help.value || !command) {
 
 // call the contract API function
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-(API /*+as any+*/)[command](args)
+(API /*+as any+*/ )[command](args)

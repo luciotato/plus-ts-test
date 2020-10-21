@@ -5,9 +5,9 @@
   "main": "plus.js",
   "type": "module",
   "scripts": {
-    "build": "npx tsc --build -verbose",
-    "test": "bash run.sh",
-    "start": "bash run.sh"
+    "build": "node build.js",
+    "test": "node src/plus.js --help",
+    "start": "node src/plus.js"
   },
   "repository": {
     "type": "git",
@@ -25,8 +25,8 @@
   },
   "homepage": "https://github.com/luciotato/slash-ts-test/#readme",
   "devDependencies": {
-    "@types/node": "^14.11.2",
-    "plus-typescript": "^4.1.0"
+    "@types/node": "^14.14.0",
+    "plus-typescript": "^4.2.1"
   },
   "dependencies": {}
 }

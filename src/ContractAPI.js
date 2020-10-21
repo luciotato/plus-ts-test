@@ -1,7 +1,7 @@
-import * as nearCli from "./util/SpawnNearCli"
-import { options } from "./CLIOptions"
-import { cliConfig } from "./CLIConfig"
-import { CommandLineArgs } from "./util/CommandLineArgs"
+import * as nearCli from "./util/SpawnNearCli.js"
+import { options } from "./CLIOptions.js"
+import { cliConfig } from "./CLIConfig.js"
+import { CommandLineArgs } from "./util/CommandLineArgs.js"
 
 // name of this script
 export const nickname = "tom"

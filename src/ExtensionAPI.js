@@ -1,9 +1,9 @@
-import { cliConfig } from "./CLIConfig"
-import { nickname, ContractAPI } from "./ContractAPI"
-import { options } from "./CLIOptions"
-import * as color from "./util/color"
-import * as nearCli from "./util/SpawnNearCli"
-import { CommandLineArgs } from "./util/CommandLineArgs"
+import { cliConfig } from "./CLIConfig.js"
+import { nickname, ContractAPI } from "./ContractAPI.js"
+import { options } from "./CLIOptions.js"
+import * as color from "./util/color.js"
+import * as nearCli from "./util/SpawnNearCli.js"
+import { CommandLineArgs } from "./util/CommandLineArgs.js"
 
 // -------------------------
 // Contract API extensions

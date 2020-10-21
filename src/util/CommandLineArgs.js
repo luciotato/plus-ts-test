@@ -33,7 +33,7 @@ options:
 
 import { sep } from "path" // host OS path separator
 import { inspect } from "util"
-import * as color from './color'
+import * as color from './color.js'
 
 /*+
 export type OptionDeclaration =

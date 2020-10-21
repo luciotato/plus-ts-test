@@ -1,9 +1,7 @@
 import { writeFileSync } from "fs"
 import * as path from "path"
-//@ts-ignore
-import { cliConfig } from "../CLIConfig.ts"
-//@ts-ignore
-import { red, green, normal } from "./color.ts"
+import { cliConfig } from "../CLIConfig.js"
+import { red, green, normal } from "./color.js"
 
 export function saveConfig(userAccount /*:string*/, contractAccount /*:string*/) /*:void*/ {
     // @ts-ignore -- import.meta.url
